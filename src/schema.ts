@@ -1,5 +1,5 @@
-import dinosaur from "./dinosaur/schema.ts";
+import { getSchemas } from "./utils/schema.ts";
 
-export const typeDefs = `
-  ${dinosaur}
-`;
+export default await getSchemas([
+  "./src/dinosaur/schema.graphql",
+]);

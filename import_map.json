@@ -2,14 +2,13 @@
   "imports": {
     "/": "./",
     "./": "./",
-    "apollo/client": "npm:@apollo/client@^3.7.14",
-    "apollo/server": "npm:@apollo/server@^4.7.1",
-    "apollo/server/standalone": "npm:@apollo/server@4.7.1/standalone",
-    "graphql": "npm:graphql@^16.6.0",
+    "std/http/server": "https://deno.land/std@0.188.0/http/server.ts",
+    "gql": "https://deno.land/x/gql@1.1.2/mod.ts",
+    "graphql_tag": "https://deno.land/x/graphql_tag@0.1.2/mod.ts",
+    "graphql_tag/deps": "https://deno.land/x/graphql_tag@0.1.2/deps.ts",
+    "graphql_tools": "https://esm.sh/@graphql-tools/schema@10.0.0",
     "dotenv": "https://deno.land/std@0.188.0/dotenv/mod.ts",
     "deps": "./deps.ts",
-    "dev_deps": "./dev_deps.ts",
-    "resolvers": "./src/resolvers.ts",
-    "schema": "./src/schema.ts"
+    "dev_deps": "./dev_deps.ts"
   }
 }

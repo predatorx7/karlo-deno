@@ -1,0 +1,10 @@
+query {
+  dinosaurs() {
+    name
+    description
+  }
+  dinosaur(name:"Aardonyx") {
+    name
+    description
+  }
+}
